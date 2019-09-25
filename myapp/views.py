@@ -9,7 +9,7 @@ class IndexView(ListView):
     context_object_name = "post_list"
 
     def get_queryset(self):
-        return Post.object.all
+        return Post.objects.all()
 
 
 
